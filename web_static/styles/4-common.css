@@ -13,5 +13,6 @@ body {
 	margin: 30px auto;
 	display: flex;
 	justify-content: center;
+	flex-direction: column;
 }
  
