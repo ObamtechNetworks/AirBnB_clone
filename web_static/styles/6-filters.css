@@ -67,3 +67,56 @@ section div.amenities {
 	margin-left: 20px;
 	margin-right: 10px;
 }
+
+/* .filters .locations .popover ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: red;
+} */
+
+.popover {
+	display: none;
+	background-color: #FAFAFA;
+	width: 100%;
+	border: 1px solid #DDDDDD;
+	border-radius: 4px;
+	list-style: none;
+}
+
+.filters .locations .popover {
+	width: 100%;
+	padding: 15px 20px 20px 20px;
+	position: relative;
+	right: 40px;
+}
+
+.filters .amenities .popover {
+	width: 30%;
+	position: relative;
+	right: 40px;
+	padding: 30px 30px 30px 30px;
+
+}
+
+.locations:hover .popover,
+.amenities:hover .popover {
+	display: block;
+}
+
+.popover h2 {
+	font-size: 16px;
+	margin-bottom: 0px;
+}
+
+.popover li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.filters .locations .popover ul {
+	list-style: none;
+	padding: 0px 0px 0px 20px;
+	margin: 0px;
+}
