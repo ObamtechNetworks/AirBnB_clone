@@ -1,9 +1,5 @@
 section article div.amenities {
-	margin: 0;
-}
-
-article .amenities {
-	margin-top: 40px;
+	margin: 40px 0 0 0;
 }
 
 article .amenities h2,
