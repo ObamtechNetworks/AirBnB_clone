@@ -16,7 +16,7 @@ color: #FF5A5F;
 }
 
 .places article {
-	display: inline-block;
+	display: inline-grid;
 	width: 390px;
 	padding: 20px;
 	margin: 20px;
@@ -88,7 +88,7 @@ color: #FF5A5F;
 .user,
 .description {
 	text-align: left;
-	padding: 5px;
+	padding: 5px 0;
 }
 
 .user {
