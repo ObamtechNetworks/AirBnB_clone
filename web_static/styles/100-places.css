@@ -1,0 +1,27 @@
+section div.amenities {
+	margin: 40px 0px 0px 0px;
+}
+
+article .amenities h2, article .reviews h2{
+	font-size: 16px;
+	border-bottom: 1px #DDDDDD solid;
+	text-align: left;
+}
+
+.amenities ul, .reviews ul {
+	list-style-type: none;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+}
+.amenities ul li:first-child {
+	list-style:url("../images/icon_tv.png");
+
+}
+
+.amenities ul li {
+	line-height: 30px;
+	width: 50%;
+	margin: 0;
+	padding: 0;
+}
