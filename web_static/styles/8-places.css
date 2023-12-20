@@ -15,6 +15,11 @@ color: #FF5A5F;
 	right: 20px;
 }
 
+.places {
+	text-align: center;
+	padding: 20px;
+}
+
 .places article {
 	display: inline-grid;
 	width: 390px;

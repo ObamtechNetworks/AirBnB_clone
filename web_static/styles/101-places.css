@@ -1,0 +1,173 @@
+/* TASK: TO USE FLEXBOX STYLING IN ALL THE ARTICLES SECTION OF THE PLACES SECTIONS */
+
+/*======== PLACES AND PRICE BY NIGHT SECTION ========*/
+.price_by_night {
+	color: #FF5A5F;
+	border: #FF5A5F solid 4px;
+	border-radius: 50%;
+	min-width: 60px;
+	height: 60px;
+	font-size: 30px;
+	text-align: center;
+	padding: 10px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+
+.places {
+	text-align: center;
+	padding: 20px;
+}
+
+.places article {
+	display: inline-flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 390px;
+	padding: 20px;
+	margin: 20px;
+	border: #FF5A5F 1px solid;
+	border-radius: 4px;
+	position: relative;
+}
+
+.places h1 {
+	font-size: 30px;
+	text-align: left;
+	margin: 10px;
+}
+
+.places article h2 {
+	font-size: 30px;
+	text-align: center;
+}
+
+/*======== END OF PLACES AND PRICE BY NIGHT SECTION ========*/
+
+/* HOUSE INFORMATION SECTION */
+
+.information {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+	height: 80px;
+	border: 1px solid #DDDDDD;
+	border-width: 1px 0;
+	padding-top: 10px;
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+
+.information .max_guest,
+.information .number_rooms,
+.information .number_bathrooms {
+	width: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: justify;
+}
+
+.information .guest_icon,
+.information .guest_icon,
+.information .room_icon,
+.information .bath_icon {
+	height: 50px;
+	width: 50px;
+	text-align: center;
+}
+
+.information .guest_icon {
+	background-image: url("../images/icon_group.png");
+	background-repeat: no-repeat;
+}
+
+.information .room_icon {
+	background-image: url("../images/icon_bed.png");
+	background-repeat: no-repeat;
+}
+
+.information .bath_icon {
+	background-image: url("../images/icon_bath.png");
+	background-repeat: no-repeat;
+}
+
+.user,
+.description {
+	text-align: left;
+	padding: 5px 0;
+}
+
+.user {
+	line-height: 2em;
+}
+
+/* END OF HOUSE INFORMATION SECTION */
+
+
+/*============= AMENITIES AND FULL DETAILS SECTION ======*/
+
+section article div.amenities {
+	margin: 40px 0 0 0;
+}
+
+article .amenities h2,
+article .reviews h2 {
+	font-size: 16px;
+	border-bottom: 1px #DDDDDD solid;
+	text-align: left;
+	padding-bottom: 10px;
+}
+
+article .reviews h3 {
+	font-size: 14px;
+	margin: 10px 0 0 0;
+}
+
+article .reviews p {
+	margin: 3px 0 0 0;
+}
+
+.amenities ul,
+.reviews ul {
+	list-style-type: none;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+}
+
+article .amenities ul li {
+	line-height: 30px;
+	width: 50%;
+	margin: 0;
+	padding: 0;
+}
+
+article .amenities ul li.tv,
+article .amenities ul li.wifi,
+article .amenities ul li.pet {
+	background-size: 15%;
+	background-repeat: no-repeat;
+	padding-left: 30px;
+	background-position: left;
+}
+
+article .amenities ul li.tv {
+	background-image: url("../images/icon_tv.png");
+}
+
+article .amenities ul li.wifi {
+	background-image: url("../images/icon_wifi.png");
+}
+
+article .amenities ul li.pet {
+	background-image: url("../images/icon_pets.png");
+}
+
+/*====== END OF AMENITIES AND FULL DETAILS SECTION =======*/
